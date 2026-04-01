@@ -18,6 +18,22 @@ Para el trabajo final:
 - Las finanzas son el arte y ciencia de administrar el dinero.
   - Como arte: habilidades y actitudes
   - Como ciencia: teoría financiera
+- Son las acciones que toman las personas o empresas, para manejar el dinero a través del tiempo, utilizando el sistema financiero.
+
+### Teoría financiera
+- Asignación de recursos, evaluación de flujos de fondos en el tiempo y modelos cuantitativos para tomar decisiones.
+- Permite manejar la riqueza personal y familiar.
+- Permite tomar decisiones racionales.
+
+#### Principales conceptos
+- Mercado
+- Sistema financiero
+  - Mercado financiero
+  - Instituciones financieras: Intermediarios financieros e inversionistas institucionales
+  - Instrumentos financieros: Intermediación directa e indirecta
+- Mercado de valores
+  - Por tipo: Primario y secundario
+  - Por mecanismos: Bursátil y extra bursátil
 
 ### Tipos de mercado
 
