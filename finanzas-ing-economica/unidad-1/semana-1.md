@@ -57,3 +57,6 @@ Digamos si lo compra en 10 dólares y el precio de mercado es de 15 dolares, la 
 
 - La inflación: Es el aumento generalizado y sostenido de los precios de los bienes y servicios en una economía durante un período de tiempo.
 - El IPC (Índice de Precios al Consumidor): Es un indicador que mide la variación promedio de los precios de una canasta de bienes y servicios representativa del consumo de los hogares en un país.
+
+### Para la próxima semana:
+- Lista de integrantes que conformaran el grupo de trabajo final.
