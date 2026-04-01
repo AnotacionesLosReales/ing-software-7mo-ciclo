@@ -45,9 +45,9 @@ Para el trabajo final:
 
 Tipos de Activos en el Mercado de Capitales: Acciones (Renta variable) y Bonos (Renta fija).
 
-Para el mercado de Capitales: Es un Contrato a futuro. 
+Para el mercado de derivados: Es un Contrato a futuro. 
 
 **Ejemplo**: Una empresa de jugos enlatados le compra a una empresa productora de naranjas un contrato a futuro para comprar naranjas a un precio fijo en una fecha futura. Esto le permite a la empresa de jugos enlatados protegerse contra la volatilidadde los precios de las naranjas y asegurar un suministro constante para su producción.
 Digamos si lo compra en 10 dólares y el precio de mercado es de 15 dolares, la empresa de jugos enlatados se ahorra 5 dólares por cada contrato a futuro que haya comprado. Si el precio de mercado es de 8 dólares, la empresa de jugos enlatados pierde 2 dólares por cada contrato a futuro que haya comprado.
 - Esto se hace para especular con el precio de las naranjas, es decir, para obtener ganancias si el precio de mercado sube o baja. Si el precio de mercado sube, la empresa de jugos enlatados gana dinero porque compró a un precio fijo más bajo. Si el precio de mercado baja, la empresa de jugos enlatados pierde dinero porque compró a un precio fijo más alto.
- - Es bastante riesgoso porque el precio de mercado puede ser muy volátil y puede cambiar rápidamente debido a factores como la oferta y la demanda, las condiciones climáticas, las políticas gubernamentales, etc. Por lo tanto, es importante que la empresa de jugos enlatados tenga una buena estrategia de gestión de riesgos para minimizar las pérdidas potenciales.
+- Es bastante riesgoso porque el precio de mercado puede ser muy volátil y puede cambiar rápidamente debido a factores como la oferta y la demanda, las condiciones climáticas, las políticas gubernamentales, etc. Por lo tanto, es importante que la empresa de jugos enlatados tenga una buena estrategia de gestión de riesgos para minimizar las pérdidas potenciales.
