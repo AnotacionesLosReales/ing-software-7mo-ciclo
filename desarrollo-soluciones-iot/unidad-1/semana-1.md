@@ -1,6 +1,10 @@
 # Semana 1: IoT Concepts
 
-## Definiciones
+--- 
+
+## Sesión 1:
+
+### Definiciones
 
 - Experiencia de usuario: Es la **percepcion** (logica y emocion) resultado de la interaccion entre el usuario con la solucion/aplicacion.
 - Efectivo: Alguien que concreta acciones.
@@ -14,3 +18,33 @@
 - Lean UX Process: Assumptions (5 tipos: Business Assumptions, Business Outcomes, User Assumptions, User Outcomes and Benefits, Features), Hypothesis (1 hipotesis por cada feature).
 - Elementos y principios de diseño
 - Jacob Nilsen: Creador de las 10 heuristicas de usabilidad.
+
+
+---
+
+## Sesión 2:
+
+### Docs As Code
+
+- Es un enfoque de documentación que se basa en los mismos principios y herramientas que el desarrollo de software.
+
+### Historia de IoT
+
+- Kevin Ashton: El primero en popularizar Internet of Things.
+- Universidad Carnegie Mellon: Construyeron el primer dispositivo IoT, el cual fue una maquina expendedora de Coca-Cola que podía reportar su inventario a través de la red de la universidad. 
+
+### Tipos: 
+- Smartwatches: Se considera como un Internet of Wearable Things (IoWT).
+- smart home devices: Alexa, cerraduras inteligentes, electrodomésticos inteligentes (Appliances).
+- Industrial Sensors: Se considera como un Industrial Internet of Things (IIoT).
+- Robots: Se considera porque tienen la capacidad de reconocer su entorno. Se abre la rama Internet of Robotic Things (IoRT).
+- Healthcare Devices: Brindan información sobre temperatura, nivel de sueño, ritmo cardiaco. Se considera como Internet of Medical Things (IoMT).
+- Connected Cars: Son automóviles con una consola en la cabina. Se distribuye mediante Android Auto.
+
+### Estructura de un sistema IoT
+
+Constrained devices: Dispositivos con recursos limitados (memoria, procesamiento, energía). Están basados en microcontroladores.
+Gateways like devices: Dispositivos que actúan como intermediarios entre los dispositivos IoT y la nube, proporcionando conectividad y procesamiento adicional.
+
+
+
