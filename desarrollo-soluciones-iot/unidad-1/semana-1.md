@@ -2,7 +2,7 @@
 
 --- 
 
-## Sesión 1:
+## Sesión 1: Intro
 
 ### Definiciones
 
@@ -19,10 +19,9 @@
 - Elementos y principios de diseño
 - Jacob Nilsen: Creador de las 10 heuristicas de usabilidad.
 
-
 ---
 
-## Sesión 2:
+## Sesión 2: IoT Concepts
 
 ### Docs As Code
 
@@ -41,10 +40,13 @@
 - Healthcare Devices: Brindan información sobre temperatura, nivel de sueño, ritmo cardiaco. Se considera como Internet of Medical Things (IoMT).
 - Connected Cars: Son automóviles con una consola en la cabina. Se distribuye mediante Android Auto.
 
-### Estructura de un sistema IoT
 
-Constrained devices: Dispositivos con recursos limitados (memoria, procesamiento, energía). Están basados en microcontroladores.
-Gateways like devices: Dispositivos que actúan como intermediarios entre los dispositivos IoT y la nube, proporcionando conectividad y procesamiento adicional.
+### Typical IoT Solution Architecture
 
+- Conformada por constrained devices, gateways o border routers y cloud platform. Dispositivos con recursos limitados (memoria, procesamiento, energía). Están basados en microcontroladores.
+- Constrained devices: protocolos IoT, hardware, sistema operativo (OS) o real time operating system (RTOS).
+- Gateway and smart devices: data management and messaging, conectividad, manejo de la red, sistema operativo (OS) o real time operating system (RTOS).
+- IoT Cloud Platform: manejo de dispositivos, manejo de datos, registro de datos, manejo de eventos y analiticas, sistema operativo (OS) o platform as a service (PaaS).
 
+- Gateways like devices: Dispositivos que actúan como intermediarios entre los dispositivos IoT y la nube, proporcionando conectividad y procesamiento adicional.
 
