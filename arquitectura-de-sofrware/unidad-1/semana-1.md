@@ -44,14 +44,21 @@ Mantenibilidad
 Para aprender arquitectura empresarial: 
 La mayoría trabaja con TOGAF (The Open Group Architecture Framework)
 
-2. Arquitectura de sistemas:
+### Arquitectura Empresarial
 
-- Maneja en conjunto el hardware y software
-- Tiene un alto nivel de abstracción
+- Se prioriza la estrategia antes que el código.
+- Analiza la forma en la que se organiza la gente, los procesos y la tecnología para cumplir objetivos.
+- TOGAF: The Open Group Architecture Framework.
 
-3. Arquitectura de software:
-- Va desde la concepción hasta el despliegue de la aplicación
+### Arquitectura de Sistemas
 
+- Estructura a alto nivel.
+- Comprende un mix de software y hardware, alto nivel de abstracción y Componentes y Servicios a través de subsistemas.
+- **Relacionado a la interoperabilidad e integración con otros sistemas.**
+
+### Arquitectura de Software
+
+- Desde la concepción hasta el despliegue del código.
 
 ### Flujo de negocio (Compra y Venta):
 
