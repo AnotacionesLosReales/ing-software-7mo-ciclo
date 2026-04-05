@@ -92,7 +92,7 @@ Ejemplo: En un sistema de comercio electrónico, el módulo de pago puede inclui
 
 Son todas las personas, grupos o entidades que tienen interés en el desarrollo, implementación y uso de un sistema de software.
 
-- Para lo próxima semana:
+### Para lo próxima semana:
 - Continuar con factores que influyen en la arquitectura de software.
-- Formar los grupos y elegir tema de proyecto.
+- Formar los grupos y elegir tema de proyecto para su validación.
 
