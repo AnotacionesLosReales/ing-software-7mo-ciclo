@@ -1,7 +1,7 @@
 # Semana 1: Software Architecture Intro
 
 IBM Garage: Es un programa que ayuda a las empresas a adoptar nuevas tecnologías y metodologías de trabajo.
-- Una funcionalidad debe ser refinada para su entendimiento.
+- Una funcionalidad debe ser refinada para su entendimiento y no tener problemas con los clientes.
 
 ## Ciclo de vida del desarrollo de Software
 
@@ -44,11 +44,8 @@ Mantenibilidad
 Para aprender arquitectura empresarial: 
 La mayoría trabaja con TOGAF (The Open Group Architecture Framework)
 
-### Arquitectura Empresarial
-
 - Se prioriza la estrategia antes que el código.
 - Analiza la forma en la que se organiza la gente, los procesos y la tecnología para cumplir objetivos.
-- TOGAF: The Open Group Architecture Framework.
 
 ### Arquitectura de Sistemas
 
@@ -68,8 +65,7 @@ Se manda una orden de compra: Es un documento de compromiso entre el comprador y
 Se entrega el pedido y se manda una factura: Es un documento que detalla los productos o servicios vendidos, su precio y la cantidad.
 
 Comprar vs arrendar:
-- Se arrienda debido a no arriesgarse en la aprobación de un proyecto, además para bajar los impuestos de la empresa.
-
+- Se arrienda debido a no arriesgarse en la aprobación de un proyecto, además para bajar los activos de la empresa.
 
 ### Arquitectura vs Diseño
 
@@ -81,12 +77,14 @@ Arquitectura:
 
 
 Vistas: Se puede ver la arquitectura desde el punto de vista de clases, middleware, componentes, etc.
-Estructura: 
-- Módulo:
+
+Estructura:
+- Módulo: Es una parte del software que tiene una función específica y puede ser independiente de otras partes.
 Ejemplo: Modulo de contenido, Modulo de evaluaciones, 
 
 - Componentes:
-Ejemplo: 
+Ejemplo: Componente de autenticación, Componente de base de datos, Componente de interfaz de usuario.
+Ejemplo: En un sistema de comercio electrónico, el módulo de pago puede incluir componentes como el procesamiento de tarjetas de crédito, la integración con pasarelas de pago.
 
 - Localización: Es la relación entre el software con elementos externos (Hardware)
 
@@ -94,6 +92,7 @@ Ejemplo:
 
 Son todas las personas, grupos o entidades que tienen interés en el desarrollo, implementación y uso de un sistema de software.
 
-
-Factores que influy
+- Para lo próxima semana:
+- Continuar con factores que influyen en la arquitectura de software.
+- Formar los grupos y elegir tema de proyecto.
 
