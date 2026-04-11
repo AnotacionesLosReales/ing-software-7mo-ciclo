@@ -69,3 +69,19 @@ add_executable(cpp_opp_review ${SOURCES})
 - ```ABC```: asegura que las clases derivadas implementen métodos obligatorios.
 - ```@property```: es un decorador que transforma métodos de clase en atributos de solo lectura, permitiendo acceder a ellos sin usar paréntesis.
 - ```@abstractmethod```: es un decorador perteneciente a ABC que se utiliza para definir métodos en una clase base que obligatoriamente deben ser implementados por cualquier subclase concreta.
+
+---
+
+## Sesion 2: IoT Solution Components
+
+### IoT Architecture
+
+- Device layer.
+- Network Layer.
+- Edge processing Layer.
+- Service and application support layer.
+- Application Layer.
+
+### IoT C4 Architecture
+
+- Contenedores: elementos que se despliegan.
