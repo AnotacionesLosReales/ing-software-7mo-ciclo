@@ -70,6 +70,29 @@ add_executable(cpp_opp_review ${SOURCES})
 - ```@property```: es un decorador que transforma métodos de clase en atributos de solo lectura, permitiendo acceder a ellos sin usar paréntesis.
 - ```@abstractmethod```: es un decorador perteneciente a ABC que se utiliza para definir métodos en una clase base que obligatoriamente deben ser implementados por cualquier subclase concreta.
 
+## Sesion 2: Casos IoT
+
+## Edge Computing vs Cloud Computing
+
+- Edge Computing: procesamiento de datos cerca de la fuente de generación, reduciendo latencia y ancho de banda.
+- Cloud Computing: procesamiento de datos en servidores remotos, ofreciendo escalabilidad y recursos compartidos
+
+### Caso: Smart Mirror
+
+Es mucho más costoso procesar video e imágenes en la nube, por lo que es mejor hacerlo en el edge.
+
+Dentro de edge: Recolección, filtro, agregación de datos y modelo LLM pre entrenado.
+
+Dentro de Cloud: Análisis y dashboards.
+
+### C4 Model y big Picture
+
+landscape: afuera los segmentos y dentro los empleados.
+
+Se despliega en el server y se ejecuta en el browser.
+
+Big Picture: Los procesos de neogcio sin contar con nuestra solución. 
+
 ---
 
 ## Sesion 2: IoT Solution Components
