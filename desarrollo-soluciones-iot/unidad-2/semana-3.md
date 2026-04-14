@@ -102,3 +102,22 @@ El ESP32 tiene los siguientes pines:
 - D26: General-purpose I/O pin.
 - D25: General-purpose I/O pin.
 
+### Conceptos 
+
+Sensores: Elementos o componentes que su función es capaz de detectar cambios en su entorno.
+Actuadores: Elementos o componentes que su función es capaz de realizar una acción en su entorno.
+
+Single Board Computer (SBC): Es un tipo de computadora completa construida en una sola placa de circuito impreso, que incluye un procesador, memoria, almacenamiento y puertos de entrada/salida. Ejemplos: Raspberry Pi, BeagleBone, Arduino.
+
+Off-the-Shelf Hardware: Se refiere a componentes o dispositivos que están disponibles comercialmente y pueden ser adquiridos fácilmente para su uso en proyectos de IoT. Ejemplos: sensores de temperatura, módulos Wi-Fi, cámaras.
+
+System on a Chip (SoC): Es un circuito integrado que combina todos los componentes de una computadora o sistema electrónico en un solo chip. Ejemplos: Qualcomm Snapdragon, Apple A-series.
+
+Microcontroller: Es un pequeño dispositivo de computación que contiene un procesador, memoria y periféricos integrados en un solo chip. Se utiliza comúnmente en aplicaciones de IoT para controlar dispositivos y recopilar datos. Ejemplos: Arduino Uno, ESP8266, STM32.
+
+General Purpose Input/Output (GPIO): Son pines en un microcontrolador o SBC que pueden ser configurados como entradas o salidas para interactuar con sensores, actuadores u otros dispositivos electrónicos.
+
+Expansion Boards: Son placas adicionales que se conectan a un microcontrolador o SBC para proporcionar funcionalidades adicionales, como más puertos GPIO, interfaces de comunicación, sensores integrados o acceso a Wi-Fi.
+
+Cirkit Designer: Es una herramienta de diseño de circuitos electrónicos que permite a los usuarios crear y simular circuitos de manera visual. Es útil para diseñar y probar circuitos antes de implementarlos físicamente.
+
