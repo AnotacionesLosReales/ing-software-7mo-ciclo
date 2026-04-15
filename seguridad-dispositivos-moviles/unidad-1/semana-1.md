@@ -32,3 +32,20 @@
 - **Adware:** Tiene como finalidad mostrar material publicitario de cualquier forma.
 - **Troyano:** Se hacen pasar por programas de utilidad que, al ejecutarlo, infecta el equipo.
 - **Keylogger:** Realizan un seguimiento de registro de cada tecla presionada, sin el consentimiento del usuario. Puede ser un hardware o un tipo de software.
+
+### Contramedidas a los keyloggers
+
+- Mútiple Factor de Autenticación (MFA): se basa en una atención utilizando no sólo lo que conozco (una contraseña o pin), sino también algo que tengo o alguna característica biométrica.
+- Uso de teclado virtual para ciertas operaciones (de tipo bancario, por ejemplo): se puede invocar por consola escribiendo osk o osk.exe (nombre del proceso: OnScreen Keyboard).
+
+### Phishing
+
+Se produce a través de mensajes de correo malintencionados en los cuales el atacante, apelando al sentido de urgencia y haciéndose pasar por otra persona o representante de alguna entidad, solicita rellenar un formulario o ingresar a una página web falsa para apoderarse de los datos personales de la víctima y luego lucrar con ellos.
+
+### Smishing
+
+El término Smishing es similar al Phishing, pero se hace a través de un mensaje de texto.
+
+### Vishing
+
+El término Vishing es similar a los Smishing, pero se hace a través de una llamada telefónica.
