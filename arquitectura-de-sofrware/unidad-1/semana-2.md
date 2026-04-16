@@ -342,4 +342,66 @@
 
 ---
 
+
+#### Arquitectura y Comandos
+
+NGNIX: Usa el puerto 80 y es un proxy que recibir un request desde el puerto 80 y esto lo traduce a hacia otro puerto.
+
+http://127.0.0.1:90/ -> ip para acceder a la landing page por el puerto 90
+
+Comando para levantar NGinx: nginx
+
+Comando para bajar: nginx -s stop
+
+Middleware: Es un software que se instala en servidores
+
+Amazon -> OpenJDK Correto
+
+J2EE
+Jakarta: Es una especificacion
+Wildfly cumple con la especificacion Jakarta
+
+#### Arquitectura
+
+Estructura Standalone: Levanta una JVM y usar .WAR - Una sola maquina virtual donde se despliega una aplicación
+
+Estructura Standalone
+
+JVM
+Middleware -> Wildfly
+Runtime -> JDK 25
+Sistema Operativo
+
+Estructura Domain
+
+Varias JVM -> Corren varios archivos .WAR y un Balancer
+Middleware -> Wildfly
+Runtime -> JDK
+SO
+
+Wildfly Usa una arquitectura monolitica
+
+
+#### Usando Wildfly
+
+Wildfly: 
+	- http://127.0.0.1:8080/ (Standalone)
+	- comando: standalone
+
+Wildfly: 
+	- http://127.0.0.1:9990/ (Domain)
+	- comando: domain
+
+Por temas didactico se corre en consola, pero en producción se corre como servicio
+
+Repositorio de contenido: Primero se sube los .WAR aqui para hacer el deployment.
+Primero se sube y luego lo distribuye
+
+En arquitectura: ¿Cual es el unico punto de falla?
+
+Reglas de balance:
+- Availability: Direcciona quien tiene mayor recursos
+- Round Robin: Hace un request hasta que alguno se cae
+
+
 ## Sesión 2: Introducción a ADD
