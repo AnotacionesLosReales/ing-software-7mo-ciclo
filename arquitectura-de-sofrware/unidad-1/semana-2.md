@@ -418,3 +418,34 @@ Reglas de balance:
 - Paso 5: Instanciar los elementos arquitecturales, asignar responsabilidades y definir interfaces.
 - Paso 6: Boceto de las vistas y registro de las decisiones de diseño.
 - Paso 7: Ejecutar el análisis del diseño actual, revisar el objetivo de la iteración y logros del diseño.
+
+### Tacticas
+
+La tactica es la forma de conseguir un atributo
+
+Alta Disponibilidad: 
+## Detectar y prevenir la falla
+
+### Detección
+
+Echo Test
+Monitoring: Applicaciones como ServersAlive sirven para monitorear hasta 10 servidores
+Availability index: Verifica que servidor esta mas sobrecarga para enviar a otro que no lo este
+Timestamp:
+Voting: Usa Round Robin o Round Robin Balanceado
+
+- Reduncacia Activa: Tener mas de una instancia. Es mucho mas costoso
+- Redundancia Pasiva: Se prepara otra instancia (segundo servidor)
+- Repuesto: Repuesto de Hardware
+- Rollback: Hacer un punto de restauración
+- Software Updgrade
+- Retry
+- Degradación
+- Reconfiguración
+
+Para bases de datos:
+
+En SQL Server cuando se hace un query se deja en log y luego se ejecuta en la base de datos. Esto se denomina como Two face commit 
+
+- Shadow: Sincronización de base de datos en caso falle un disco donde se encunter la BD. 
+- Non Stop Forwarding: Estrategia de backup en donde se recupera desde el log en caso de que un backup hecho no cobra toda la data a restaurar.
