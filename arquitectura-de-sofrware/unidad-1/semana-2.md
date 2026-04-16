@@ -230,13 +230,116 @@
 - Testeabilidad: facilidad que presenta un sistema para que se ejecuten las actividades de testing.
 - Usabilidad: facilidad con la cual un usuario puede cumplir una tarea o utilizar un servicio ofrecido por el sistema.
 
----
-
-## Sesión 2: Introducción a ADD
-
 ### Drivers Arquitectónicos
 
 - Son el subconjunto de requisitos que tienen una gran importancia para la arquitectura de un sistema.
 - Drivers funcionales: relevancia en la satisfacción del negocio, complejidad técnica, escenario relevante para la arquitectura.
 - Drivers de atributos de calidad: relevancia en la satisfacción de los objetivos de negocio, complejidad técnica.
 - Drivers de restricciones: todas las restricciones son consideradas drivers de restricciones.
+
+### Tácticas
+
+- Método empleado con el fin de tener un objetivo.
+- Más simples que patrones, un patrón puede englobar tácticas.
+
+<table border="1">
+    <tr>
+        <th> Tipo de táctica </th>
+        <th colspan="2"> Descripción </th>
+    </tr>
+    <tr>
+        <td> Disponibilidad </td>
+        <td> Diseñadas para habilitar resistencia a fallas. </td>
+        <td> Categoría de fallas: Detección, Recuperación y Prevención </td>
+    </tr>
+    <tr>
+        <td> Interoperabilidad </td>
+        <td> Diseñadas para apoyar la integración entre sistemas. </td>
+        <td> Categorías: Localización y Manejo de interfaces </td>
+    </tr>
+    <tr>
+        <td> Modificabilidad </td>
+        <td> Controlar la complejidad de realizar cambios. </td>
+        <td> Acoplamiento: responsabilidades y módulos (BAJO). Cohesión: Unidad de propósito (ALTO). </td>
+    </tr>
+    <tr>
+        <td> Performance </td>
+        <td rowspan="2"> Generar una respuesta para un evento con una restricción de tiempo. </td>
+    </tr>
+    <tr>
+        <td> Seguridad </td>
+        <td rowspan="2"> Detectar, Reaccionar, Resistir y Recuperar </td>
+    </tr>
+    <tr>
+        <td> Capacidad dePrueba </td>
+        <td> Permitir facilidad de pruebas cuando aumente funcionalidad. </td>
+        <td> Categorías: Añadir control yobservabilidad y Limitar complejidad de diseño. </td>
+    </tr>
+    <tr>
+        <td> Usabilidad </td>
+        <td> Relacionadas a qué tan fácil es para un usuario realizar una tarea. </td>
+        <td> Iniciativa de usuario, de sistema, y mixta (Ej: cancelar e indicador de progreso). </td>
+    </tr>
+</table>
+
+---
+
+## Laboratorio 02: Nginx y Wildfly
+
+### Configuración de nginx
+
+- Abrir archivo nginx.conf para editar el puerto en el que escucha las solicitudes del servidor.
+- Abrir cmd en la misma carpeta donde están los archivos de nginx.
+- Ejecutar el comando 'nginx' para levantar el servidor.
+- Ir al buscador y escribir la url '127.0.0.1:90' para acceder.
+- Para editar la vista html, puede colocar una página propia en la carpeta 'html' donde debe colocar todos los archivos de su página web.
+- Para bajarse el servidor nginx **desde otra ventana**, ejecuta 'nginx -s stop'.
+
+### Wildfly
+
+- Para bajarse Wildfly, accede a C:\wildfly\wildfly-39.0.1.Final\bin y abre una ventana de comandos.
+- Luego, ejecutar el siguiente -> 'jboss-cli.bat --connect command=:shutdown'.
+
+#### Wildfly Standalone
+- SO -> Runtime (JDK 25) -> Middleware (Wildfly: servidor empresarial Jakarta).
+- Jakarta es una especificación para servidores empresariales.
+- Wildfly levanta una JVM que ejecuta todos los archivos .war para aplicaciones.
+- Si se cae la máquina virtual, se cae todo.
+
+#### Wildfly Domain
+- SO -> Runtime (JDK 25) -> Middleware (Wildfly).
+- En esta versión, se crean varias JVM.
+- Se pueden correr varios archivos .war y se pueden replicar entre las máquinas virtuales.
+- Se crea un balanceador en una de las JVM donde puede mandar a una de las copias de cada archivo (Redundancia activa).
+
+#### Levantar Wildfly Standalone
+- Ingresar a C:\wildfly\wildfly-39.0.1.Final\bin y abrir un cmd.
+- Escribir 'dir *.bat'.
+- Ejecutar 'standalone.bat'.
+- Acceder a '127.0.0.1:8080' para visualizar el servidor levantado.
+- Esto genera que corra en consola no como servicio (servicio significa que se instala en el SO).
+
+#### Desplegar una aplicación .war en Standalone
+- Buscar el archivo .war y arrastrarlo a la página de despliegues.
+- Name: donde va a vivir la aplicación (Lab03 para 127.0.0.1:8080/Lab03).
+- Runtime name: el nombre del archivo con el codigo (Lab03.war).
+
+#### Levantar Wildfly Domain
+- En el puerto 8080 está el balanceador.
+- Para visualizar la consola, se debe acceder a '127.0.0.1:9990'.
+- Repositorio de contenidos: aqui se cargan los archivos .war y desde ahi se distribuye a los servidores.
+
+#### Desplegar una aplicación .war en Domain
+- Buscar el archivo .war y arrastrarlo a la página de repositorio de contenidos.
+- Name: donde va a vivir la aplicación (Lab03 para 127.0.0.1:8080/Lab03).
+- Runtime name: el nombre del archivo con el codigo (Lab03.war).
+- Buscar el archivo y elegir la opcíón Deploy, elegir "application-group".
+
+#### Hacer caer un servidor en Domain
+- Buscar en Runtime la sección Hosts.
+- Buscar el servidor que deseas hacer caer.
+- Elegir el tiempo para bajarse el servidor (0 segundos para que sea instantáneo).
+
+---
+
+## Sesión 2: Introducción a ADD
