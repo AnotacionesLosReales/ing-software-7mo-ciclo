@@ -264,11 +264,11 @@
     </tr>
     <tr>
         <td> Performance </td>
-        <td rowspan="2"> Generar una respuesta para un evento con una restricción de tiempo. </td>
+        <td colspan="2"> Generar una respuesta para un evento con una restricción de tiempo. </td>
     </tr>
     <tr>
         <td> Seguridad </td>
-        <td rowspan="2"> Detectar, Reaccionar, Resistir y Recuperar </td>
+        <td colspan="2"> Detectar, Reaccionar, Resistir y Recuperar </td>
     </tr>
     <tr>
         <td> Capacidad dePrueba </td>
