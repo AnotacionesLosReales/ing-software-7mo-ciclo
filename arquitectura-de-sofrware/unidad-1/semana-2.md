@@ -340,9 +340,6 @@
 - Buscar el servidor que deseas hacer caer.
 - Elegir el tiempo para bajarse el servidor (0 segundos para que sea instantáneo).
 
----
-
-
 #### Arquitectura y Comandos
 
 NGNIX: Usa el puerto 80 y es un proxy que recibir un request desde el puerto 80 y esto lo traduce a hacia otro puerto.
@@ -403,5 +400,21 @@ Reglas de balance:
 - Availability: Direcciona quien tiene mayor recursos
 - Round Robin: Hace un request hasta que alguno se cae
 
+---
 
 ## Sesión 2: Introducción a ADD
+
+### Attribute-Driven Design
+
+- El diseño de la arquitectura es llevada a cabo mediante una serie de rondas a través del proyecto de desarrollo de software.
+- Dentro de las rondas de diseño, una serie de iteraciones de diseño es ejecutada.
+
+#### Pasos
+
+- Paso 1: Revisar las entradas.
+- Paso 2: Establecer el objetivo de la iteración por medio de la selección de drivers.
+- Paso 3: Escoger uno o más elementos del sistema para ser refinados.
+- Paso 4: Escoger uno o más conceptos de diseño para satisfacer los drivers seleccionados.
+- Paso 5: Instanciar los elementos arquitecturales, asignar responsabilidades y definir interfaces.
+- Paso 6: Boceto de las vistas y registro de las decisiones de diseño.
+- Paso 7: Ejecutar el análisis del diseño actual, revisar el objetivo de la iteración y logros del diseño.
