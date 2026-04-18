@@ -423,8 +423,8 @@ Reglas de balance:
 
 La tactica es la forma de conseguir un atributo
 
-Alta Disponibilidad: 
-## Detectar y prevenir la falla
+## Alta Disponibilidad: 
+### Detectar y prevenir la falla
 
 ### Detección
 
@@ -449,3 +449,41 @@ En SQL Server cuando se hace un query se deja en log y luego se ejecuta en la ba
 
 - Shadow: Sincronización de base de datos en caso falle un disco donde se encunter la BD. 
 - Non Stop Forwarding: Estrategia de backup en donde se recupera desde el log en caso de que un backup hecho no cobra toda la data a restaurar.
+
+
+## Tácticas de Performance
+
+### Control Resources Demand
+
+- Gestionar el ratio: Es la muestra de solicitudes que se pueden atender por unidad de tiempo.
+- Limitar la respuesta de eventos: Limitar la respuesta de otras aplicaciones.
+- Priorizar eventos: Se atiendan primero los eventos mas importantes.
+- Reducir sobrecarga: Se refiere a reducir el overhead de la comunicación entre componentes. Para sitios web se puede evaluar mediante las opciones de desarrollador en el navegador. 
+- Tiempo de ejecución: Se refiere al tiempo que tarda en ejecutarse un proceso.
+
+### Manage Resources
+
+- Incrementar recursos: Se refiere a aumentar la cantidad de recursos disponibles para el sistema, como agregar más servidores o aumentar la capacidad de almacenamiento.
+  - Introducir concurrencia: En banca se usa mucho el bus empresarial, que es un intermediario que permite la comunicación entre diferentes componentes de manera asíncrona. Esto refleja concurrencia, ya que permite que diferentes componentes puedan procesar solicitudes de manera simultánea sin bloquearse entre sí.
+- Contener varias copias de datos: Se refiere a tener varias copias de los datos para mejorar la disponibilidad y la tolerancia a fallos.
+
+
+## Tácticas de Seguridad
+
+### Detectar ataques
+
+Se detectan ataques mediante un software o firewalls. Por ejemplo, entidades univeritarias protegiendo sus redes con firewalls para evitar el ingreso de personas a paginas maliciosas.
+
+Low Orbit Ion Cannon (LOIC) es una herramienta de código abierto que se utiliza para realizar ataques de denegación de servicio (DDoS). Esta herramienta permite a los usuarios enviar una gran cantidad de solicitudes a un servidor objetivo, lo que puede sobrecargar el servidor y hacer que deje de funcionar correctamente.
+
+## Content Delivery Network (CDN)
+
+Es una red de servidores distribuidos geográficamente que trabajan juntos para entregar contenido de manera rápida y eficiente a los usuarios finales.
+
+Las nubes de Claro o Telefónica son ejemplos de CDN. Estas redes permiten a las empresas distribuir su contenido a través de múltiples servidores ubicados en diferentes regiones, lo que mejora la velocidad de carga y la disponibilidad del contenido para los usuarios en todo el mundo.
+
+La última milla se refiere a la parte final del proceso de entrega de contenido, que es la conexión entre el servidor de CDN y el usuario final.
+
+## Programación de Borde
+
+La programación de borde (Edge Computing) es un paradigma de computación que se centra en procesar datos cerca de la fuente de generación, en lugar de enviarlos a un centro de datos centralizado. Esto se logra mediante la implementación de dispositivos y servidores en el borde de la red, lo que permite una respuesta más rápida y una menor latencia.
