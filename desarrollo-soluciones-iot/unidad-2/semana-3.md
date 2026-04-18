@@ -121,6 +121,25 @@ Expansion Boards: Son placas adicionales que se conectan a un microcontrolador o
 
 Cirkit Designer: Es una herramienta de diseño de circuitos electrónicos que permite a los usuarios crear y simular circuitos de manera visual. Es útil para diseñar y probar circuitos antes de implementarlos físicamente.
 
+
+## Sesión 2: IoT Connectivity
+
+### Wokwi
+
+Es una plataforma de simulación en linea que permite a los usuarios diseñar, simular y compartir proyectos de electrónica, especialmente aquellos relacionados con microcontroladores como Arduino y ESP32. Wokwi ofrece una interfaz visual para crear circuitos, escribir código y ver cómo interactúan los componentes en tiempo real.
+
+En wokwi podemos encontrar una variedad de componentes y módulos para simular, como sensores, actuadores, pantallas, módulos de comunicación (Wi-Fi, Bluetooth), entre otros. Esto facilita el proceso de desarrollo y prueba de proyectos de IoT sin necesidad de hardware físico.
+
+#### Bibliotecas para un poryecto de Iot
+
+- ArduinoJson: Para manejar datos en formato JSON.
+- WiFi: Para conectar el dispositivo a una red Wi-Fi.
+- HttpClient: Para realizar solicitudes HTTP a servidores web.
+
+
+
+
+
 ---
 
 ## Sesion 2: IoT Connectivity
