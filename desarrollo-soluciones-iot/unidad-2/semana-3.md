@@ -121,3 +121,12 @@ Expansion Boards: Son placas adicionales que se conectan a un microcontrolador o
 
 Cirkit Designer: Es una herramienta de diseño de circuitos electrónicos que permite a los usuarios crear y simular circuitos de manera visual. Es útil para diseñar y probar circuitos antes de implementarlos físicamente.
 
+---
+
+## Sesion 2: IoT Connectivity
+
+### Wokwi
+
+- sketch.ino: codigo fuente del proyecto. Se usa el framework de Arduino (setup y loop).
+- diagram.json: configuration del proyecto.
+- Dependencias: ArduinoJson, WiFi, HttpClient
