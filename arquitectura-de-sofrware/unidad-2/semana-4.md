@@ -44,3 +44,11 @@
 
 - Debido a la estabilidad de las capacidades empresariales, la arquitectura resultante, también, será relativamente estable.
 - Los componentes indivuales de la arquitectura pueden evolucionar a medida que cambia el aspecto del negocio, pero la arquitectura permanece sin cambios.
+
+## Sesión 2: Decompose by subdomain (DDD)
+
+### Intro
+
+- Domain-Driven Design es un enfoque para construir aplicaciones de software complejas que se centra en un desarrollo de modelo de dominio.
+- Define el vocabulario usado por el equipo (**ubiquitous language**).
+- DDD tiene 2 conceptos utiles al aplicar la arquitectura de microservicios: **subdominios y bounded contexts**.
