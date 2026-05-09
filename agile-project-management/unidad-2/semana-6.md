@@ -53,8 +53,8 @@
 
 - En la ejecucion tradicional de proyectos, se utiliza Earned Value Management. Resulta que EVM tambien se usa en agile.
 
-- Valor planificado (PV o AC): es lo que tu estimas realizar.
-- Costo real: es el dinero que realmente se ha gastado.
+- Valor planificado (PV): es lo que tu estimas realizar.
+- Costo real (AC): es el dinero que realmente se ha gastado.
 - Valor ganado (EV): estimacion del trabajo actual.
  
 ***Caso: se tiene un modulo de login, dura 10 dias su desarrollo y cuesta 10k soles. Al quinto dia se reporta un gasto de 7k soles. Al revisarse, el avance va un 40% (transformado a 4k soles en dinero).***
