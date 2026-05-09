@@ -1,5 +1,4 @@
-# Semana 3: Testing Overview - Testing Levels
-
+# Semana 3: Testing Overview
 
 ## Pruebas de Integración
 
@@ -9,13 +8,22 @@
 - **Pruebas ascendentes**: Se integran los módulos de abajo hacia arriba, comenzando con los módulos más bajos y avanzando hacia los módulos superiores.
 - **Pruebas descendentes**: Se integran los módulos de arriba hacia abajo, comenzando
 
+## Pruebas de sistemas
+
+- Buscan probar a la aplicación (o sistema) como un todo.
+- Están basadas en requisitos (funcionales y no funcionales).
+- Se realizaran dentro del ámbito de testing.
+
 ## Pruebas de aceptación
 
 Su objetivo es validar que el software cumple con los requisitos del cliente y es apto para su uso. Se realizan pruebas funcionales basadas en casos de uso y escenarios reales.
 
-
 ## Estrategias de pruebas
 
+- Las historias se utilizan para recopilar, definir y priorizar los requisitos de nivel de servicio y los acuerdos de nivel de servicio.
+  - Historias de Operación: Comprobar que los despliegues funcionan correctamente y se pueden operar.
+  - Historias de Test: Comprobar que las entregas funcionan: casos de aceptación y criterios de aceptación.
+  - Historias de Usuario: Razón y valor de negocio, funcionalidades y condiciones de uso
 
 ### Se puede atomatizar todo?
 
@@ -27,5 +35,3 @@ En ese caso, se podrían usar pruebas hibridas, donde se combinan pruebas automa
 - Arrange: Configurar el entorno de prueba y preparar los datos necesarios.
 - Act: Ejecutar la funcionalidad que se desea probar.
 - Assert: Verificar que los resultados obtenidos coinciden con los resultados esperados.
-
-
