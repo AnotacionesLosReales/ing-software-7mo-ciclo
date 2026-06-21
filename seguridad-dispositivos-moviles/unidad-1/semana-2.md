@@ -1,8 +1,6 @@
 # Semana 2: Arquitectura de Android y iOS
 
-## Sesión 1: Sistema operativo Android
-
-### Versiones
+## Versiones
 
 - Desde su lanzamiento oficial en 2008, hasta la versión 9, se le dio siempre un nombre que correspondía a una golosina o postre, cuya primera letra seguía de forma secuencial según el alfabeto.
 - Las versiones incluyen:
@@ -22,13 +20,13 @@
   - Android 8.0 - 8.0.1 Oreo
   - Android 9 Pie
 
-### Historia del bloqueo comercial a Huawei
+## Historia del bloqueo comercial a Huawei
 
 - Tras la imposición del gobierno de Donald Trump, se quiebran las relaciones comerciales de gigantes tecnológicos estadounidenses con Huawei.
 - El elemento clave es Google Play Services (el hub de soluciones de Google), por lo cual al no tener Google en Android se pierde: GoogleProtect, Google Play Store, Google Drive, Google Play Books, etc.
 - En respuesta, Huawei crea HarmonyOS, un sistema operativo multiplataforma para conectar varios dispositivos en un ecosistema unificado.
 
-### Arquitectura en Android
+## Arquitectura en Android
 
 <table border="1">
   <tr>
@@ -73,11 +71,7 @@
   </tr>
 </table>
 
----
-
-## Sesión 2: Sistema operativo iOS
-
-### Arquitectura del sistema iOS
+## Arquitectura del sistema iOS
 
 <table border="1">
   <tr>
