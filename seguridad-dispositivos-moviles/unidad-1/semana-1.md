@@ -1,6 +1,6 @@
 # Semana 1: Historia de los dispositivos móviles
 
-## Sesión 2: Importancia de la seguridad en dispositivos móviles
+## Importancia de la seguridad en dispositivos móviles
 
 ### Sistema Operativo WebOS
 
