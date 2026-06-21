@@ -1,10 +1,8 @@
 # Semana 3: Historia de la seguridad en dispositivos móviles
 
-## Sesión 1: Seguridad en dispositivos Android y iOS
+## El caso Android
 
-### El caso Android
-
-#### Modelo de permisos en Android
+### Modelo de permisos en Android
 
 - Pueden dividirse en:
   - Permisos de API.
@@ -45,13 +43,13 @@ override fun onRequestPermissionsResult(requestCode: Int,
 }
 ```
 
-#### Mejores Prácticas para uso de permisos en aplicaciones
+### Mejores Prácticas para uso de permisos en aplicaciones
 
 - Solicitar permisos solo cuando sean necesarios.
 - Explicar al usuario para qué se necesita el permiso antes de solicitarlo.
 - Gestionar el caso de que el usuario deniegue el permiso.
 
-#### Fichero .apk
+### Fichero .apk
 
 - La mayoría de aplicaciones para Android están escritas en Java y se distribuyen mediante un APK (Android Package Kit) que, en general, tiene la siguiente estructura:
 
@@ -64,29 +62,26 @@ override fun onRequestPermissionsResult(requestCode: Int,
 - Directorio lib: almacena código compilado para el procesador y puede contener los siguientes subdirectorios: armeabi, armeabi-v7a, arm64-v8a, x86, x86_64, mips.
 - Fichero resources.arsc: archivo binario esencial en los paquetes APK de Android que contiene metainformación de recursos precompilados, como tablas de ID, cadenas de texto, estilos, colores y referencias a recursos XML.
 
-### El caso iOS
+## El caso iOS
 
-#### Reducción de superficie de ataque
+### Reducción de superficie de ataque
 
 - Se basa en un principio básico que indica que mientras menos código o aplicaciones relacionadas exista, será menos factible de encontrar una vulnerabilidad.
 
-#### Reducción de aplicaciones “útiles” para un atacante
+### Reducción de aplicaciones “útiles” para un atacante
 
 - Apple no incorpora un Shell que pudiera servir a un atacante.
 
-#### Separación de privilegios
+### Separación de privilegios
 
 - iOS separa los procesos mediante usuarios, grupos y mecanismos de acceso a archivos. Por ejemplo, se tienen los usuarios mobile, root y _wireless.
 
-#### Protección por firma de código
+### Protección por firma de código
 
 - Todos los binarios y librerías deben estar firmadas por una autoridad de confianza (como Apple) antes de que el núcleo permita su ejecución.
 
-#### Sandboxing
+### Sandboxing
 
 - Se estableció como una “técnica” de seguridad bajo la sospecha de que alguna aplicación pudiera ser objeto de un ataque o pudiera estar comprometida con algún malware.
 - Lo que busca el sandboxing es aislar el posible daño y evitar que éste se difumine hacia otras aplicaciones.
 
----
-
-## Sesión 2: 
