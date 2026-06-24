@@ -1,41 +1,40 @@
-# Semana 6: Instrumentos financieros - Tasa descontada
+# Semana 6: Instrumentos financieros - Teoría de rentas o anualidades
 
-## Descuento
+## Anualidad
 
-- Es una operación que consiste en la presentación de un título de crédito en una entidad financiera, para que ésta anticipe su importe y gestione su cobro. El tenedor, cede el título valor y la entidad le abona su importe en dinero, descontando antes los intereses correspondientes al tiempo que transcurrirá entre la **fecha de abono (descuento) y la fecha de vencimiento** del documento, así como otras cantidades cobradas por los servicios prestados.
+- Es una serie de flujos de caja (usualmente idénticos) que se espera, ocurran periódicamente para un número específico de veces. Por ejemplo:
+  - Crédito para la compra de auto o casa.
+  - Alquiler de una vivienda.
+  - Pago de cupones de Bonos.
 
-### Descuento bancario
+<img src="https://i.imgur.com/xntEcdK.jpeg" alt="Clasificacion de anualidades.">
 
-- En este tipo de operación, la entidad financiera anticipa al cliente el importe de una letra de cambio que éste trae o un pagaré que firma al descuento, liquidando por anticipado los intereses de la operación.
-- Suelen ser operaciones a corto plazo, por lo que se aplica la ley de descuento comercial. Para calcular el importe efectivo que la entidad financiera entrega al cliente se aplica la siguiente ley:
+## Diagrama de flujo de dinero visto desde el presente
 
-```
-Descuento = Valor Nominal × d%
+<img src="https://i.imgur.com/yjr3kbL.jpeg" alt="Diagrama de caja visto desde el presente.">
 
-Valor Neto = Valor Nominal - Descuento
+## Ecuación equivalente del valor
 
-Valor Neto = Valor Nominal × (1 - d%)
-```
+<img src="https://i.imgur.com/Z9kA78b.jpeg" alt="Ecuacion equivalente del valor.">
 
-<img src="https://i.imgur.com/nPwkflF.jpeg" alt="Formulas para hallar la tasa descontada.">
+## Fórmulas para anualidad simple vencida
 
-### Otra forma de hallar Valor Neto
+### Factor de recuperación del capital
 
-<img src="https://i.imgur.com/qTe3a5J.jpeg" alt="Formulas para hallar el valor neto de una segunda forma.">
+<img src="https://i.imgur.com/DppSghG.jpeg" alt="Factor de recuperacion del capital.">
 
-## Tasa de Costo Efectivo (TCE)
+### Factor de depósito al fondo de amortización
 
-- El principal componente del costo de una operación de crédito es la Tasa de Interés Efectiva (tasa de interés compensatoria),
-- Sin embargo hay otros factores que debemos considerar y que determinan el costo efectivo del dinero.
-  - Comisiones: De evaluación, de activación, de desembolso, de prepago, de cobranza, de renovación, etc.
-  - Gastos: Gastos de Administrativos, Fotocopias, Portes, Mantenimiento de cuenta, Gastos de protesto, Gastos notariales, etc.
-  - Seguros: De desgravamen, seguro del bien financiado.
-  - Retenciones: (remuneradas y sin remunerar), saldos mínimos, fondo en garantía inmovilizado.
-  - Penalidades: Tasa de interés moratoria por pago fuera de fecha.
-  - Forma de cobro/pago de los intereses (adelantados, a fin de periodo).
-  - Comportamiento del tipo de cambio (prestamos en ME).
-  - Modificación de plazos.
+<img src="https://i.imgur.com/X4RwJV4.jpeg" alt="Factor de deposito al fondo de amortizacion.">
 
-### Fórmula
+## Anualidad simple adelantada
 
-<img src="https://i.imgur.com/NTYoSFG.jpeg" alt="Formula ejemplo para hallar el TCEA.">
+<img src="https://i.imgur.com/gjAfL1q.jpeg" alt="Diagrama de flujo de caja para anualidad simple adelantada.">
+
+### Fórmulas para anualidad simple adelantada
+
+<img src="https://i.imgur.com/LT2Xctc.jpeg" alt="Fórmula para hallar la anualidad simple adelantada.">
+
+## Factores financieros
+
+<img src="https://i.imgur.com/NIjVa79.jpeg" alt="Factores financieros.">
