@@ -1,4 +1,4 @@
-# Semana 9: Indicadores de rentabilidad
+# Semana 7: Indicadores de rentabilidad
 
 ## Valor Actual Neto (VAN)
 
