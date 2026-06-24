@@ -1,6 +1,6 @@
 # Semana 3: Tasa de interés compuesto o nominal
 
-## Sesión 1: Interés compuesto o nominal
+## Interés compuesto o nominal
 
 ### Definición 
 
@@ -75,3 +75,34 @@ C: capital
 TN: tasa nominal contratada
 m: número de periodos de tiempo
 ```
+
+## Tasa efectiva
+
+- Resultado de la acumulación entre el capital y el resultado luego del proceso de capitalización.
+
+## Fórmulas
+
+```
+Tasa efectiva
+
+TEP = (S / C) - 1
+
+TEP: tasa efectiva del periodo
+```
+
+```
+Tasa nominal a efectiva
+
+TEP = (1 + (TN / m))^n -1
+
+TEP: tasa efectiva del periodo
+```
+
+```
+Tasa efectiva a nominal
+
+TN = m x ((1 + TEP)^(1/n) - 1)
+
+X: tasa de interés del periodo
+```
+
