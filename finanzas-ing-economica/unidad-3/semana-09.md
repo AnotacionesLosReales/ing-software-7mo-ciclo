@@ -1,4 +1,4 @@
-# Semana 10: Análisis de Reemplazo
+# Semana 9: Análisis de Reemplazo
 
 - Criterios para analizar el reemplazo/elección de un activo.
 
