@@ -65,6 +65,14 @@ Definicion: Herramienta que clasifica a los stakeholders en 4 cuadrantes segun s
 - Columna con nivel actual de involucramiento: Neutral, Resistente, Promotor, Esceptico.
 - Columna con estrategia propuesta. Ej.: Steering committee (reunion de los cargos mas importantes), encuestas, etc.
 
+**Nivel de involucramiento**
+
+- Esceptico: No sabe nada del proyecto ni de su impacto.
+- Resistente: Conoce el proyecto pero se opone a los cambios o resultados.
+- Neutral: Está enterado pero no muestra apoyo ni rechazo.
+- Promotor: Conoce el proyecto y apoya los posibles cambios.
+- Líder: Está involucrado activamente y colabora para garantizar el éxito.
+
 ***Enfoque Agile***
 - *En proyectos agiles: las estrategias se revisan en cada Sprint Retrospective. El nivel de Involucramiento puede cambiar con cada entrega.*
 
